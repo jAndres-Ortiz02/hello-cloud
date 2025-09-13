@@ -23,7 +23,7 @@ app.get("/pruebajg", (_req, res) => {
 });
  
 app.get("/ping", (_req, res) => {
-  res.json({ name: "Juan Gomez, Adrian Murcia, Oscar Perez"});
+  res.json({ name: "Juan Andres Gomez, Adrian Leonardo Murcia, Oscar Eduardo Perez"});
 });
 
 app.listen(PORT, () => {
