@@ -22,6 +22,10 @@ app.get("/pruebajg", (_req, res) => {
   res.json({ name: "hello-cloud", version: "1.0.0" });
 });
  
+app.get("/ping", (_req, res) => {
+  res.json({ name: "Juan Gomez, Adrian Murcia, Oscar Perez"});
+});
+
 app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
 });
