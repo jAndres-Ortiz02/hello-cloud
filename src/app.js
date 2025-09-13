@@ -22,8 +22,10 @@ app.get("/pruebajg", (_req, res) => {
   res.json({ name: "hello-cloud", version: "1.0.0" });
 });
  
-app.get("/ping", (_req, res) => {
-  res.json({ name: "Juan Andres Gomez, Adrian Leonardo Murcia, Oscar Eduardo Perez"});
+app.all("/ping", (_req, res) => {
+  res.json({ 
+    name: "Juan Andres Gomez, Adrian Leonardo Murcia, Oscar Eduardo Perez" 
+  });
 });
 
 app.listen(PORT, () => {
