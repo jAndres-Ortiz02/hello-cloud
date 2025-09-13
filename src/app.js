@@ -24,7 +24,7 @@ app.get("/pruebajg", (_req, res) => {
  
 app.all("/ping", (_req, res) => {
   res.json({ 
-    name: "Juan Andres Gomez, Adrian Leonardo Murcia, Oscar Eduardo Perez" 
+    name: "Juan Andres Gomez, Adrian Leonardo Murcia, Oscar Eduardo Perez -- SE HIZO PUSH" 
   });
 });
 
